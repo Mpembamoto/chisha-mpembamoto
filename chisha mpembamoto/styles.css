@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    transition: background-color 0.5s ease;
+    background-image: url('images/1074699.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.container {
+    background: (blue);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(155, 146, 146, 0.2);
+    text-align: center;
+}
+
+.weather-box {
+    color: #d3eca5;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"], button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.location, .datetime, .temperature, .description, .details, .forecast {
+    margin: 10px 0;
+}
+
+.icon {
+    margin: 20px 0;
+    width: 100px;
+    height: 100px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details div {
+    margin: 0 10px;
+}
+
+.forecast-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.forecast-item {
+    background: rgba(39, 68, 92, 0.8);
+    padding: 10px;
+    border-radius: 2%;
+    text-align: center;
+    width: 14%;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: fixed;
+    background-color: rgba(rgb(86, 119, 129));
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+footer p {
+    margin: 2px 0;
+}
+
+footer a {
+    color: #37b4da;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: block;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
